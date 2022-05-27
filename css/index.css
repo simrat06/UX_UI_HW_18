@@ -203,3 +203,25 @@ h4{
   text-decoration: underline;
   text-align: center;
 }
+/*Media Query*/
+@media only screen and (max-width: 600px){
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .userResearch {
+    grid-area: top;
+  }
+  .userInterface{
+    grid-area: center;
+  }
+  .webDesign{
+    grid-area: bottom;
+  }
+  .grid-container{
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "top" "center" "bottom";
+  }
+}
