@@ -172,3 +172,34 @@ button:hover::after {
   from { background-position: -25% }
   to { background-position: 135% }
 }
+/*<!-- My Skills Section Constructed using CSS Grid --!>*/
+.skillsGrid{
+  display: grid;
+}
+.userResearch {
+  grid-area: left;
+}
+.userInterface{
+  grid-area: middle;
+}
+.webDesign{
+  grid-area: right;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 'left left middle middle right right';
+  grid-template-rows: 33% 33% 33%;
+ grid-template-columns: auto;
+ 
+}
+p2{
+ 
+  display: flex;
+  width: auto;
+  margin: 20px;
+}
+h4{
+  margin: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
