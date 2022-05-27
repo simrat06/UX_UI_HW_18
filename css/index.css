@@ -3,13 +3,24 @@ li{
     padding: 2%;
 }
 .logo{
+
     width: 0 auto;
     padding: 1%;
     text-align: left;
 }
+.logoImg{
+  height: 60px;
+  width: 0 auto;
+  float: left;
+  text-align: center;
+
+
+}
 p{
     display: inline-block;
     vertical-align: top;
+    padding: 1rem;
+    
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -43,36 +54,59 @@ ul{
     text-align: center;
     margin-left: auto;
 }
-.heroImg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    padding: 25px;
-    
-
+.alignItems{
+  align-items: center;
 }
-.content{
-    display: flex;
-    width: 700px;
-    margin: 0 auto;
-    padding: 1%;
-    
-    
+.perfectlyCenter{
+  justify-content: center;
+  align-items: center;
 }
-.pic{
-    height: 350px;
-    margin: 0 auto;
-    float: left;
-    align-items: center;
-    padding: 40px 20px 40px 40px;
-    border-radius: 50%;
-    
+.flexContainer{
+  display: flex;
+  height: 800px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+ 
 }
-.para{
-    text-align: left;
-    padding: 40px 40px 40px 20px;
-
+img{
+  height: 350px;
+  width: 0 auto;
+  display: flex;
+  margin: 10px;
+  padding: 1;
+  border-radius: 5%;
+  
+  
+}
+.flexItem{
+ 
+  width: 33%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  margin-right: 10px;
+}
+h1{
+  text-align: center;
+}
+h2, h3{
+  padding: 1%;
+  margin: 20px;
+}
+p1{
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 1%;
+  margin: 20px;
+}
+button{
+  margin: 20px;
 }
 footer{
     background-color: #D4CFCB;
@@ -138,4 +172,3 @@ button:hover::after {
   from { background-position: -25% }
   to { background-position: 135% }
 }
-
